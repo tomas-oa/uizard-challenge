@@ -14,7 +14,7 @@ https://app.uizard.io/p/de328bd3
 
 ## API:
 
-You are given two endpoints to fetch data from. One foe top stories and one for individual stories.
+You are given two endpoints to fetch data from. One for top stories and one for individual stories.
 The latter takes a story ID as argument which can be found in the top stories response. Notice that the top-stories endpoint returns 500 stories. It's your job to make sure the viewer only displays the latest 10.
 
 - Top stories: https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty
