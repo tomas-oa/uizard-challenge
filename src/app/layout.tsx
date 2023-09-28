@@ -21,7 +21,7 @@ export default async function RootLayout({
         <main className='grid grid-cols-[320px,1fr]'>
           <aside>
             <ul>
-              {posts.map((id) => ( <Posts id={id} /> ))}
+              {posts.map((id) => ( <Posts key={id} id={id} /> ))}
             </ul>
           </aside>
           {children}
